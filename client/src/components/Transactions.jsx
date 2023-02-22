@@ -34,7 +34,7 @@ const TransactionsCard = ({ addressTo, addressFrom, timestamp, message, keyword,
             </>
           )}
         </div>
-        <video className="w-full h-64 2xl:h-96 rounded-md shadow-lg object-cover" poster={posterUrl} controls="controls">
+        <video className="w-full h-64 2xl:h-96 rounded-md shadow-lg object-cover" poster={posterUrl} preload="none" controls="controls">
           <source src={gifUrl || url} type="video/mp4" />
         </video>
         <div className="bg-black p-3 px-5 w-max rounded-3xl -mt-5 shadow-2xl">
