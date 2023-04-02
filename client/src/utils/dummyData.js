@@ -63,7 +63,7 @@ export default [
   {
     id: 7,
     url: "../../../images/po_mom_short.mp3",
-    posterUrl: "../../../images/po.jpg",
+    posterUrl: "../../../images/po2.jpg",
     message: "",
     timestamp: "1/25/2022, 4:33:21 PM",
     addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
